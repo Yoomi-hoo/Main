@@ -60,8 +60,9 @@ color: #24292e;}
 
 
     .wrap{margin: auto;
-height: 5000px;
-width: 1320px;}
+height: 4870px;
+width: 1320px;
+font-family: 'Pretendard-Regular';}
 .wrap p{   font-family: 'Pretendard-Regular';
 font-size: 16px;
 line-height: 24px;}
@@ -73,7 +74,7 @@ text-align: center;}
 /*배너*/
 
 .box1{float: right;
-width: 300px;
+width: 408px;
 padding: 50px;}
 .box1 h2{padding: 30px 0;
 font-size: 35px;}
@@ -109,6 +110,8 @@ font-size: 25px;}
 
 /*whats new*/
 li{float: left;}
+
+
 .box5 li {
     display: inline-block;
     padding: 4px 20px;
@@ -121,7 +124,7 @@ li{float: left;}
   }
   
   .box5 > ul {
-    width: 300px;
+    width: 100px;
     margin: 0;
     position: relative;
   }
@@ -136,42 +139,52 @@ text-align: center;}
 
 
 
-/*푸터*/
-.footer{
-    width:100%; background-color: #D1CAC0;}
+        /*푸터*/
+        .footer{
+            width:100%; background-color: #D1CAC0;}
+        
+        .footer_inner{
+            width: 1320px;
+            margin: 0 auto;
+        
+            height: 220px;
+            padding: 50px 0;
+            text-align: center;
+          }
+        
+        .footer_inner li{float: left;
+        }
+        .f2{
+            padding: 30px 0 20px 0;
+            text-align: center;
+            overflow: hidden;
+        /* padding-left: 150px;  */
+        }
+        .f2>li{float:left;  width:33.3%;}
+        
+        
+        .sns{padding-left:155px; padding-top:10px;
+            box-sizing: border-box;}
+        .sns>ul>li{padding:10px;}
+        
+        /* .f2 li:nth-child(1){padding-right: 100px;}
+        .f2 li:nth-child(3){padding: 0px 50px}
+        .f2 li:nth-child(4){padding-right: 100px;} */
+        
+        .f3{
+            width:100%;
+            padding: 10px 0;
+            text-align: center;
+            overflow: hidden;
+          }
+        
+        .f3 li{width:33.3%;}
+        
+        /*
+        .f3 li:nth-child(2){padding: 0px 110px} */
+        /*푸터*/
 
-.footer_inner{
-    width: 1320px;
-    margin: 0 auto;
 
-    height: 220px;
-    padding: 50px 0;
-    text-align: center;
-  }
-
-.footer_inner li{float: left;
+.inlink{font-family: 'Pretendard-Regular';
+    font-size: 19px;
 }
-.f2{
-    padding: 30px 0 20px 0;
-    text-align: center;
-    overflow: hidden;
-}
-.f2>li{float:left;  width:33.3%;}
-
-
-.sns{padding-left:155px; padding-top:10px;
-    box-sizing: border-box;}
-.sns>ul>li{padding:10px;}
-
-.f3{
-    width:100%;
-    padding: 10px 0;
-    text-align: center;
-    overflow: hidden;
-  }
-
-.f3 li{width:33.3%;}
-
-/*푸터*/
-
-

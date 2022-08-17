@@ -1,6 +1,6 @@
 *{margin:0; padding:0;}
 .swiper-container { width:100%; height:100%;}
-.swiper-slide {text-align: center; font-size: 18px; background: #fff;
+.swiper-slide {text-align: center; font-size: 18px; background:transparent;
 			  /* Center slide text vertically */
 			  display: -webkit-box;
 			  display: -ms-flexbox;
@@ -27,6 +27,6 @@
 .swiper-button-next:hover{background:url(../images/next_hover.png);}/*버튼 호버 이미지*/
 
 /*블릿버튼 영역*/
-.swiper-pagination-bullet{background:pink; width:10px; height:10px; opacity:0.5;}
-.swiper-pagination-bullet-active{opacity:1;}
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:10px;}
+.swiper-pagination-bullet{background:pink; width:10px; height:10px; opacity:0.5; }
+.swiper-pagination-bullet-active{opacity:1; }
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:10px; }
