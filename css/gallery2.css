@@ -9,6 +9,8 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  width:70%;
+  margin:0 auto;
 }
 
 /* Hide the images by default */
@@ -91,3 +93,8 @@ img {
 .demo:hover {
   opacity: 1;
 }
+
+
+
+
+.row{overflow: hidden; height: 94.96px;}
