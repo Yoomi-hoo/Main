@@ -4,7 +4,7 @@ a{text-decoration:none; color:#000;}
 
 
 /* kensington common main page style */
-.mainpage .main_visual .mainviewcont.main_visual_fixed{position:relative;padding-top:41.7%;overflow:hidden;}
+.mainpage .main_visual .mainviewcont.main_visual_fixed{position:relative;padding-top:60%;overflow:hidden;}
 .mainpage .main_visual .mainviewcont.main_visual_fixed .visual_view{width:100%;height:100%;font-size:0;}
 .mainpage .main_visual .mainviewcont.main_visual_fixed .visual_view .viewbg_wrap{position:absolute;top:0;height:100%;background-size:cover;}
 
